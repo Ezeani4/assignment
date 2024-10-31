@@ -1,0 +1,170 @@
+*{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
+ 
+}
+
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  margin-right: 70px;
+}
+
+.highlight{
+  margin-left: 950px;
+  
+}
+
+.highlight,active
+.highlight:hover{
+  border-bottom: solid rgb(48, 214, 255);
+
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.logo{
+  font-size: 40px;
+  position: relative;
+  left: 50px;
+}
+
+.logo span{
+text-decoration: line-through rgb(48, 214, 255);
+}
+.design{
+  z-index: 2;
+}
+
+.design:hover{
+  border-bottom: solid #60eee6;
+}
+
+.loner{
+ border: solid #60eee6 ;
+ position: relative;
+ left: 91%;
+ bottom: 28px;
+ padding: 10px;
+ z-index: 2;
+}
+
+.img{
+  width: 20px;
+  position: absolute;
+  left: 1850px;
+  bottom: 26px;
+  cursor: pointer;
+}
+
+.background{
+  width: 100%;
+  height: 70%;
+  position: relative;
+  bottom: 34px;
+ 
+}
+
+.first{
+  position: absolute;
+  padding: 150px;
+  bottom: 0;
+  top: 2px;
+}
+
+.creative{
+  color: #60eee6;
+}
+
+.digital{
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.started{
+  border: 1px solid #60eee6;
+  width: 45%;
+  padding: 15px;
+}
+
+.grid div{
+  background-color: #121212;
+ 
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  height: 38vh;
+  column-gap: 10px;
+  position: absolute;
+  left: 150px;
+  top: 700px;
+
+}
+
+.idea{
+  width: 80px;
+  background-color: #121212;
+  position: relative;
+  padding: 30px;
+}
+
+.write{
+  background: #121212;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 30px;
+}
+.line{
+  border-bottom: #60eee6 1px solid ;
+  width: 80px;
+  margin-left: 35px;
+}
+
+.lorem{
+  background-color: #121212;
+  padding: 30px;
+}
+
+.big{
+  
+}
+.grid div:hover{
+  border: 3px solid #60eee6;
+}
+.grid .big, active
+.grid .big:hover{
+  border: 3px solid #60eee6;
+}
+
+.sec2{
+  background-color: #0b0c10;
+  height: 80vh;
+  position: relative;
+  top: 106px ;
+ 
+}
+
+
+.last{
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  position: absolute;
+  top: 170px;
+  left: 200px;
+  height: 60vh;
+  column-gap: 10px;
+  row-gap: 10px;
+  background-color: #0b0c10;
+}
+.last div{
+ background-color: #60eee6;
+}
